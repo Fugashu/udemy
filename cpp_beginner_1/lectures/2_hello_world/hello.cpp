@@ -1,17 +1,23 @@
+#include <iostream> // input output stream
+
+using namespace std; // Use the standard namespace
+
+// comment 1
+// comment 2
+// comment 3
 /*
-Autor: Jonas Friesslich
-Datum: 27.12.2025
-Zweck: Erstes Hello World Programm 
+This
+is
+a 
+multiline
+comment
 */
-// Single Line Comment
 
-#include <iostream> 
-
-using namespace std;
 
 int main() { 
-    cout << "Jonas lernt C++!" << endl;
-    cout << "This is line 2" << endl;
+
+    cout << "Hello Jonas!" << endl; // endline
+    cout << "Jonas learns C++!" << endl; // endline
 
     return 0; 
 }
